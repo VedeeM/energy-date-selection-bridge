@@ -2,7 +2,7 @@
     "name": "Energy Date Selection Bridge",
     "filename": "energy-date-selection-bridge.js",
     "content_in_root": true,
-    "type": "dashboard",
+    "type": "plugin",
     "render_readme": true,
     "translations": true
 }
