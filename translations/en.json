@@ -1,0 +1,25 @@
+{
+  "editor": {
+    "show_card": "Show Card",
+    "auto_sync_sessionvars": "Auto Sync Session Vars",
+    "dummy_refresh_helper": "Refresh Helper",
+    "auto_sync_helpers": "Auto Sync Helpers",
+    "start_date_helper": "Start Date Helper",
+    "end_date_helper": "End Date Helper",
+    "date_offset_helper": "Date Offset Helper",
+    "date_span_helper": "Date Span Helper",
+    "prefer": "Prefer Date Source",
+    "prefer_energy": "Energy (default)",
+    "prefer_dom": "DOM",
+    "prefer_url": "URL",
+    "debug": "Debug Mode",
+    "missing_helpers": "⚠️ Missing helpers"
+  },
+  "card": {
+    "start": "Start",
+    "end": "End",
+    "offset": "Offset",
+    "span": "Span",
+    "invisible": "Card invisible in frontend"
+  }
+}

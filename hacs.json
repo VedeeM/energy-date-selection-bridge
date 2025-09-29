@@ -1,0 +1,8 @@
+{
+    "name": "Energy Date Selection Bridge",
+    "filename": "www/energy-date-selection-bridge.js",
+    "content_in_root": false,
+    "type": "lovelace",
+    "render_readme": true,
+    "translations": true
+}
