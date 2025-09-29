@@ -33,7 +33,7 @@ This card is available in HACS (Home Assistant Community Store). HACS is a third
 
 - Install with HACS
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=VedeeM&repository=energy-date-selection-bridge&category=dashboard)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=VedeeM&repository=energy-date-selection-bridge&category=plugin)
 
 <details>
 <summary>Manual Install</summary>
