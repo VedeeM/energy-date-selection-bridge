@@ -1,7 +1,7 @@
 {
     "name": "Energy Date Selection Bridge",
-    "filename": "dist/energy-date-selection-bridge.js",
-    "content_in_root": false,
+    "filename": "energy-date-selection-bridge.js",
+    "content_in_root": true,
     "type": "dashboard",
     "render_readme": true,
     "translations": true
