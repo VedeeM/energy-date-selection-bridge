@@ -32,9 +32,8 @@ After fidling around with other cards like [Energy Period Selector Plus](https:/
 This card is available in HACS (Home Assistant Community Store). HACS is a third-party community store and is not included in Home Assistant out of the box.
 
 - Install with HACS
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=vedeem&repository=energy-date-selection-bridge&category=plugin)
-- Set up integration
-[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=energy-date-selection-bridge)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=VedeeM&repository=energy-date-selection-bridge&category=dashboard)
 
 <details>
 <summary>Manual Install</summary>
