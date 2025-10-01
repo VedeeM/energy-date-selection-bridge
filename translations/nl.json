@@ -8,12 +8,13 @@
     "end_date_helper": "Einddatum helper",
     "date_offset_helper": "Datum offset helper",
     "date_span_helper": "Datum span helper",
+    "advanced": "Geavanceerd",
     "prefer": "Voorkeurs datum bron",
     "prefer_energy": "Energie (standaard)",
     "prefer_dom": "DOM",
     "prefer_url": "URL",
     "debug": "Debugmodus",
-    "missing_helpers": "⚠️ Ontbrekende helpers"
+    "missing_helpers_warning": "⚠️ Ontbrekende helpers"
   },
   "card": {
     "start": "Start",
