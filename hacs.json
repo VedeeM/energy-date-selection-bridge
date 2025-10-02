@@ -3,6 +3,5 @@
     "filename": "energy-date-selection-bridge.js",
     "content_in_root": true,
     "type": "plugin",
-    "render_readme": true,
-    "translations": true
+    "render_readme": true
 }
