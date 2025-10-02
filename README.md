@@ -15,7 +15,7 @@ and with the custom [Energy Period Selector Plus](https://github.com/flixlix/ene
 When I first started with Home Assistant I soon stumbled upon a problem with the core Energy Date Picker. It was not able to communicate with other cards like [ApexCharts Card](https://github.com/RomRider/apexcharts-card)
 I noticed I was not alone and many people where asking for this functionality for a long time.
 After fidling around with other cards like [Energy Period Selector Plus](https://github.com/flixlix/energy-period-selector-plus) I did not find a solid solution and decided to start my own card to solve this problem. First I wanted to create an new datepicker with more options, but there are already such custom date pickers. so I decided to create a card that would work as a bridge between the date pickers already available and apexcharts-card.
-
+<hr/>
 </details>
 
 ## Features
@@ -41,13 +41,16 @@ This card is available in HACS (Home Assistant Community Store). HACS is a third
 Save the energy-date-selection-bridge.js file in the following location
 
     www/energy-date-selection/energy-date-selection-bridge.js
+add the translations directory and his contents
+
+    www/energy-date-selection/translations
 Add the file to your HA resources, by adding the following lines to your configuration.yaml file
 Or in the UI Settings > dashboards > Resources
 
     resources:
       - url: /local/energy-date-selection-bridge/energy-date-selection-bridge.js
         type: module
-
+<hr/>
 </details>
 
 - add the card to a view
@@ -117,6 +120,7 @@ On changes you will notice a global refresh of this helper, but the session vari
 |helper name       |default|default helper id               |
 |------------------|-------|--------------------------------|
 |dummy_refresh     |       |input_number.dummy_refresh      |
+<hr/>
 </details>
 
 ### auto_sync_helpers 
@@ -135,6 +139,7 @@ If you want to use other names, you need to specify these in the configuration.
 |end_date_helper   |today  |input_datetime.energy_end_date  |
 |date_offset_helper|-0d    |input_text.energy_date_offset   |
 |date_span_helper  |1d     |input_text.energy_date_span     |
+<hr/>
 </details>
 
 ### show_frontend_card (default: true)
@@ -209,6 +214,7 @@ This example brings everything together.
       series:
         - entity: sensor.my_energy_daily
           name: energie
+<hr/>
 </details>
 
 <details>
@@ -254,4 +260,5 @@ This is not needed for the functioning of apexcharts, but can be used in a title
       series:
         - entity: sensor.my_energy_daily
           name: energie
+<hr/>
 </details>
